@@ -34,7 +34,7 @@ const Projects = () => {
         </h1>
         <div className="box-container">
           <div className="box">
-            <img src="Images/project1 (1).png" alt="" />
+            <img src="Images/Blog2.jpg" alt="" />
             <div className="content">
               <h3>project 01</h3>
               <p>
@@ -45,7 +45,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="box">
-            <img src="Images/project2.png" alt="" />
+            <img src="Images/images (1).jpg" alt="" />
             <div className="content">
               <h3>project 02</h3>
               <p>
@@ -56,7 +56,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="box">
-            <img src="Images/project3.png" alt="" />
+            <img src="Images/Blog2.jpg" alt="" />
             <div className="content">
               <h3>project 03</h3>
               <p>
@@ -68,7 +68,7 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      <section id="showMore" class="d-none portfolio">
+      {/* <section id="showMore" class="d-none portfolio">
         <div className="box-container">
           <div className="box">
             <img src="Images/project.png" alt="" />
@@ -82,7 +82,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="portfolio">
         <div onclick="this.innerHTML=style.display='none'" className="box">
           {" "}

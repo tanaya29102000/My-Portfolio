@@ -95,17 +95,13 @@ const About = () => {
               <p>years of experience</p>
             </div>
             <div className="box">
-              <h3>06+</h3>
-              <p>happy clients</p>
-            </div>
-            <div className="box">
               <h3>3+</h3>
               <p>project completed</p>
             </div>
-            <div className="box">
+            {/* <div className="box">
               <h3>5+</h3>
               <p>awards won</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -118,15 +114,15 @@ const About = () => {
         <div className="box-container">
           <div className="box">
             <img src="Images/html.png" />
-            <h3>html</h3>
+            <h3>Html</h3>
           </div>
           <div className="box">
             <img src="Images/css.png" />
-            <h3>css</h3>
+            <h3>Css</h3>
           </div>
           <div className="box">
             <img src="Images/js.png" />
-            <h3>javascript</h3>
+            <h3>Javascript</h3>
           </div>
           <div className="box">
             <img src="Images/jquery.png" />
@@ -138,7 +134,39 @@ const About = () => {
           </div>
           <div className="box">
             <img src="Images/reactjs.png" />
-            <h3>react.js</h3>
+            <h3>React.js</h3>
+          </div>
+          <div className="box">
+            <img src="Images/expressjs.png" />
+            <h3>Express.js</h3>
+          </div>
+          <div className="box">
+            <img src="Images/firebse.png" />
+            <h3>Firebase</h3>
+          </div>
+          <div className="box">
+            <img src="Images/mongo.png" />
+            <h3>MongoDB</h3>
+          </div>
+          <div className="box">
+            <img src="Images/java.png" />
+            <h3>Java</h3>
+          </div>
+          <div className="box">
+            <img src="Images/git.png" />
+            <h3>Git</h3>
+          </div>
+          <div className="box">
+            <img src="Images/mysql.png" />
+            <h3>MySql</h3>
+          </div>
+          <div className="box">
+            <img src="Images/springboot.png" />
+            <h3>SpringBoot</h3>
+          </div>
+          <div className="box">
+            <img src="Images/nodejs.png" />
+            <h3>Node.js</h3>
           </div>
         </div>
       </section>

@@ -35,22 +35,22 @@ const Blogs = () => {
         <div className="box-container">
           <div className="box">
             <div className="image">
-              <img src="Images/blog1.png" alt="" />
+              <img src="Images/Blog4.png" alt="" />
             </div>
             <div className="content">
               <div className="icons">
                 <a href="#">
                   {" "}
-                  <i className="fas fa-calendar" /> 21st sep, 2024{" "}
+                  <i className="fas fa-calendar" /> 21st sep, 2023{" "}
                 </a>
                 <a href="#">
                   {" "}
                   <i className="fas fa-user" /> by admin{" "}
                 </a>
               </div>
-              <h3>blog title goes here.</h3>
+              <h3>Lifekitkat</h3>
               <p>
-              Stay updated with breaking news in technology, software, and hardware advancements.
+              Lifekitkat is a lifestyle blog dedicated to simplifying everyday life with practical tips, creative ideas, and inspiration. 
               </p>
               <a href="#" className="btn">
                 {" "}
@@ -60,7 +60,7 @@ const Blogs = () => {
           </div>
           <div className="box">
             <div className="image">
-              <img src="Images/Blog2 (1).png" alt="" />
+              <img src="Images/Blog2.jpg" alt="" />
             </div>
             <div className="content">
               <div className="icons">
@@ -85,7 +85,7 @@ const Blogs = () => {
           </div>
           <div className="box">
             <div className="image">
-              <img src="Images/blog3.png" alt="" />
+              <img src="Images/Blog1.jpg" alt="" />
             </div>
             <div className="content">
               <div className="icons">
