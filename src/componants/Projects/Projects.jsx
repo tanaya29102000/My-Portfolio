@@ -19,7 +19,7 @@ const Projects = () => {
         </a>
         <a href="blogs">
           {" "}
-          <i className="fas fa-blog" /> <span>blogs</span>{" "}
+          <i className="fas fa-blog" /> <span>education</span>{" "}
         </a>
         <a href="contact">
           {" "}

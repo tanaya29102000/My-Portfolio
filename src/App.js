@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './componants/Home/Home.jsx';
 import About from './componants/About/About.jsx';
 import Projects from './componants/Projects/Projects.jsx';
-import Blogs from './componants/Blogs/Blogs.jsx';
+import Education from './componants/Education/Education.jsx';
 import Contact from './componants/Contact/Contact.jsx';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Link to="/projects">
             <i className="fas fa-briefcase"></i> <span>Projects</span>
           </Link>
-          <Link to="/blogs"> <i className="fas fa-blog"></i> <span>Blogs</span> </Link>
+          <Link to="/education"> <i className="fas fa-graduation-cap"></i> <span>Education</span> </Link>
           <Link to="/contact">
             <i className="fas fa-address-book"></i> <span>Contact</span>
           </Link>
@@ -28,7 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/blogs" element={<Blogs />} />
+           <Route path="/education" element={<Education/>} /> 
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
